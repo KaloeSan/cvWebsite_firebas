@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#317EFB" />
+    <meta name="description" content="Best IT expert you can hire." />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./imgs/favicon_package/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./imgs/favicon_package/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./imgs/favicon_package/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./imgs/favicon_package/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./imgs/favicon_package/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Kamil Kostka CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">KK</div>
+        <div class="logo-text">Kamil Kostka</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#experience">Work Experience</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#certificates">Certificates</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#contact" class="button">Contact Me</a>
+          </li>
+        </ul>
+        <a class="mobile-toggle" onClick="toggleMobileMenu();">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h10"
+            />
+          </svg>
+        </a>
+      </nav>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero-blue">
+          <div>
+            <h1>
+              <small>Hi I'm</small>
+              Kamil Kostka
+            </h1>
+            <p>
+              I am a young and hardworking graduate of IT Technical College.
+              Currently, I am a part-time student of Computer Science at the
+              Lublin University of Technology. I am quick to learn and solve
+              various problems, as well as capable of working in a team. I am
+              diligent, communicative, and responsible. I aspire to further
+              develop my skills and become better at what I do.
+            </p>
+            <div class="call-to-action">
+              <a
+                href="./files/Kostka Kamil CV.pdf"
+                class="button black"
+                target="_blank"
+              >
+                View Resume
+              </a>
+              <a
+                href="mailto:kostka3@onet.pl"
+                class="button white"
+                target="_blank"
+              >
+                Contact Me
+              </a>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/KaloeSan" target="_blank">
+                <img src="./imgs/github.png" alt="GitHub" width="48" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kamilkostka/"
+                target="_blank"
+              >
+                <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="./imgs/photo.jpg" alt="Kamil Kostka" width="100%" />
+        </div>
+      </section>
+      <section class="logos container">
+        <div class="marquee">
+          <div class="track">
+            <div class="logo-icons">
+              <img src="./imgs/html.png" alt="HTML" width="128" />
+              <p><strong>HTML</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/css.png" alt="CSS" width="128" />
+              <p><strong>CSS</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/javascript.png" alt="JavaScript" width="128" />
+              <p><strong>JavaScript</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/linux.png" width="128" alt="Linux" />
+              <p><strong>Linux</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img
+                src="./imgs/google-cloud.png"
+                width="128"
+                alt="Google Cloud"
+              />
+              <p><strong>Google Cloud</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/excel.png" width="128" alt="Excel" />
+              <p><strong>Excel</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/python.png" width="128" alt="Python" />
+              <p><strong>Python</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img
+                src="./imgs/google-analytics.png"
+                width="128"
+                alt="Google Analytics"
+              />
+              <p><strong>Google Analytics</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+              <p><strong>VS Code</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/html.png" alt="HTML" width="128" />
+              <p><strong>HTML</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/css.png" alt="CSS" width="128" />
+              <p><strong>CSS</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/javascript.png" alt="JavaScript" width="128" />
+              <p><strong>JavaScript</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/linux.png" width="128" alt="Linux" />
+              <p><strong>Linux</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img
+                src="./imgs/google-cloud.png"
+                width="128"
+                alt="Google Cloud"
+              />
+              <p><strong>Google Cloud</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/excel.png" width="128" alt="Excel" />
+              <p><strong>Excel</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/python.png" width="128" alt="Python" />
+              <p><strong>Python</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img
+                src="./imgs/google-analytics.png"
+                width="128"
+                alt="Google Analytics"
+              />
+              <p><strong>Google Analytics</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+              <p><strong>VS Code</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/html.png" alt="HTML" width="128" />
+              <p><strong>HTML</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/css.png" alt="CSS" width="128" />
+              <p><strong>CSS</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/javascript.png" alt="JavaScript" width="128" />
+              <p><strong>JavaScript</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/linux.png" width="128" alt="Linux" />
+              <p><strong>Linux</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img
+                src="./imgs/google-cloud.png"
+                width="128"
+                alt="Google Cloud"
+              />
+              <p><strong>Google Cloud</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/excel.png" width="128" alt="Excel" />
+              <p><strong>Excel</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/python.png" width="128" alt="Python" />
+              <p><strong>Python</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img
+                src="./imgs/google-analytics.png"
+                width="128"
+                alt="Google Analytics"
+              />
+              <p><strong>Google Analytics</strong></p>
+            </div>
+            <div class="logo-icons">
+              <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+              <p><strong>VS Code</strong></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Experience Section -->
+      <section
+        id="experience"
+        class="jobs"
+        aria-labelledby="experience-heading"
+      >
+        <h2 class="section-titles"><small>Recent</small>Work Experience</h2>
+        <div class="container">
+          <div class="job-list">
+            <div class="job-item job-item-left">
+              <div>
+                <span class="job-date date-left"> March 2024 - Now </span>
+                <div class="job-content">
+                  <img
+                    class="job-logo"
+                    src="imgs/sii-logo.png"
+                    alt="sii logo"
+                  />
+                  <h5>Junior Software Engineer - Sii</h5>
+                  <p>
+                    Google Cloud Platform, focusing on access management, roles
+                    & groups (IAM), monitoring & control of application statuses
+                    and BigQuery, as well as Google Marketing Platform, which
+                    includes Google Analytics and Google Tag Manager.
+                    <span id="show_more"
+                      ><ul>
+                        <li>
+                          Provide expert consultation on Google Cloud Platform
+                          (GCP) architecture, solutions, and best practices.
+                        </li>
+                        <li>
+                          Assess client requirements and design scalable,
+                          secure, and cost-effective GCP solutions.
+                        </li>
+                        <li>
+                          Optimize GCP environments for performance,
+                          reliability, and cost efficiency.
+                        </li>
+                        <li>
+                          Collaborate with cross-functional teams to integrate
+                          GCP solutions with existing systems and applications.
+                        </li>
+                        <li>
+                          Monitor GCP environments for security threats,
+                          performance bottlenecks, and resource utilization.
+                        </li>
+                        <li>
+                          Provide ongoing support and troubleshooting for GCP
+                          deployments, including incident response and problem
+                          resolution.
+                        </li>
+                      </ul></span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="job-right">
+              <div class="job-item job-item-right">
+                <div>
+                  <span class="job-date date-right">
+                    December 2022 - March 2024
+                  </span>
+                  <div class="job-content">
+                    <img
+                      class="job-logo"
+                      src="imgs/radio-impuls-logo.png"
+                      alt="radio impuls logo"
+                    />
+                    <h5>IT specialist - Radio Impuls</h5>
+                    <p>
+                      Programming radio broadcasts and advertisements. Editing
+                      recordings for radio broadcast. Administering websites.
+                      Creating graphics. Network administration. Managing
+                      security and permissions. Maintaining the technical
+                      condition of equipment, including repair and maintenance.
+                      Generating reports using Google Analytics.
+                      <span id="show_more"
+                        ><ul>
+                          <li>
+                            Programming radio broadcasts and advertisements.
+                          </li>
+                          <li>Editing recordings for radio broadcasts.</li>
+                          <li>Administering websites.</li>
+                          <li>Creating graphics.</li>
+                          <li>Being responsible for network administration.</li>
+                          <li>Managing security and permissions.</li>
+                          <li>
+                            Maintaining the technical condition of equipment,
+                            repairing, and conducting maintenance
+                          </li>
+                          <li>Generating reports using Google Analytics</li>
+                        </ul></span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="job-item job-item-left">
+              <div>
+                <span class="job-date date-left">
+                  July 2022 - November 2022
+                </span>
+                <div class="job-content">
+                  <img
+                    class="job-logo"
+                    src="imgs/solid-security-logo.png"
+                    alt="solid security logo"
+                    style="top: -20px"
+                  />
+                  <h5>Sales representative assistant - Solid Security</h5>
+                  <p>
+                    Acquiring new customers and selling company products.
+                    Preparing necessary documentation, estimates, and reports.
+                    <span id="show_more"
+                      ><ul>
+                        <li>
+                          Acquiring new clients and selling corporate products.
+                        </li>
+                        <li>
+                          Preparing necessary documentation, cost estimates, and
+                          reports.
+                        </li>
+                      </ul></span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="job-right">
+              <div class="job-item job-item-right">
+                <div>
+                  <span class="job-date date-right"> July 2020 </span>
+                  <div class="job-content">
+                    <img class="job-logo" src="" alt="" />
+                    <h5>
+                      Office Assistant, IT Technician - Voivodship Water
+                      Management and Melioration Board in Puławy
+                    </h5>
+                    <p>
+                      Configuring hardware and software on workstations for
+                      employees. Maintaining network infrastructure. Repairing
+                      peripheral devices such as printers and scanners.
+                      <span id="show_more"
+                        ><ul>
+                          <li>
+                            Configuring hardware and software on employees'
+                            workstations.
+                          </li>
+                          <li>Maintaining network infrastructure.</li>
+                          <li>
+                            Repairing peripheral devices such as printers and
+                            scanners.
+                          </li>
+                        </ul></span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Education Section -->
+      <section class="timeline" id="education">
+        <h2 class="section-titles"><small>My</small>Education</h2>
+        <div class="education-container">
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">2022 - present</p>
+            <h5>
+              Lublin University of Technology<span> - Computer Science</span>
+            </h5>
+            <p>
+              Bachelor of Science in Computer Science, Engineering Studies<br />
+              Major: Software Engineering
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">2018 - 2022</p>
+            <h5>
+              Vocational Technical High School for Computer Science in
+              Puławy<span> - Computer Technician</span>
+            </h5>
+            <p>
+              Graduated with honors.<br />
+              Passed professional IT exams EE.08 and EE.09.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Certificates Section -->
+      <section id="certificates">
+        <h2 class="section-titles"><small>My</small>Certificates</h2>
+        <div class="certificates">
+          <div class="card">
+            <h4><b>Achieve Tagging Excellence</b></h4>
+          </div>
+          <div class="card">
+            <h4><b>Analyze BigQuery Data in Connected Sheets</b></h4>
+          </div>
+          <div class="card">
+            <h4><b>CCNAv7: Introduction to Networks</b></h4>
+          </div>
+          <div class="card">
+            <h4><b>Cloud Digital Leader</b></h4>
+          </div>
+          <div class="card">
+            <h4><b>Creating and processing images in Adobe Photoshop</b></h4>
+          </div>
+          <div class="card">
+            <h4><b>Google Analytics 4</b></h4>
+          </div>
+          <div class="card">
+            <h4><b>IT Essentials: PC Hardware and Software</b></h4>
+          </div>
+          <div class="card">
+            <h4><b>NDG Introduction to Linux I course</b></h4>
+          </div>
+          <div class="card">
+            <h4><b>Professional Google Workspace Administrator</b></h4>
+          </div>
+        </div>
+      </section>
+      <!-- Skills Section -->
+      <section id="skills" class="skills container">
+        <h2 class="section-titles">
+          <small>About Me</small>
+          Skills
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <ul>
+              <li>Google Maps API</li>
+              <li>Python</li>
+              <li>Firebase</li>
+              <li>SQL</li>
+              <li>Java</li>
+              <li>Network Management</li>
+              <li>API management</li>
+              <li>VirtualBox</li>
+              <li>Virtual Machine</li>
+              <li>Command prompt</li>
+              <li>Device Manager</li>
+              <li>Network Security</li>
+              <li>Security</li>
+              <li>Maintenance</li>
+              <li>Administration</li>
+              <li>Google Workspace</li>
+              <li>Google Tag Manager</li>
+              <li>Google Marketing Platform</li>
+              <li>Google Drive</li>
+              <li>Google Data Studio</li>
+              <li>Google Cloud Platform</li>
+              <li>Google APIs</li>
+              <li>Adobe Photoshop</li>
+              <li>CSS</li>
+              <li>Gimp</li>
+              <li>Google Analytics</li>
+              <li>HTML</li>
+              <li>JavaScript</li>
+              <li>Linux</li>
+              <li>MariaDB</li>
+              <li>Microsoft Office</li>
+              <li>Google Drive</li>
+              <li>MySQL</li>
+              <li>Photoshop</li>
+              <li>PostgreSQL</li>
+              <li>Windows</li>
+              <li>Windows Server</li>
+              <li>WordPress</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>A bit about me</h3>
+            <p>
+              I am a second-year student of Computer Science at Lublin
+              University of Technology. I worked as an IT Specialist at Impuls
+              Radio, where I had quite a range of tasks. I programmed
+              advertisements, administered websites, and was responsible for
+              day-to-day equipment repair issues. Additionally, I prepared
+              reports based on Google Analytics and was interested in
+              Google-based solutions. I speak English at a communicative level.
+              Currently, I am working as a Junior Software Engineer at the
+              Google Competency Center, where I continue to explore and develop
+              my skills in Google Cloud Platform (GCP). I am open to further
+              development as a GCP Consultant.
+            </p>
+            <br />
+            <h3>Languages:</h3>
+            <div class="languages-container">
+              <div class="language">
+                <img src="./imgs/polish-flag.svg" alt="Polish Flag" />
+                Polish - Native
+              </div>
+              <div class="language">
+                <img src="./imgs/uk-flag.svg" alt="UK Flag" />
+                English - B2
+              </div>
+              <div class="language">
+                <img src="./imgs/german-flag.svg" alt="German Flag" />
+                German - A2
+              </div>
+              <div class="language">
+                <img src="./imgs/russian-flag.png" alt="Russian Flag" />
+                Russian - A1
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hobby Section -->
+      <section id="hobby">
+        <h2 class="section-titles">
+          <small>My</small>
+          Hobbies
+        </h2>
+        <div class="hobby-container">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="./imgs/new-technologies-icon.png"
+                  alt="New Technologies"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h4><strong>New Technologies</strong></h4>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/languages-icon.png" alt="Learning Languages" />
+              </div>
+              <div class="flip-card-back">
+                <h4><strong>Learning Languages</strong></h4>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/economics-icon.png" alt="Economics" />
+              </div>
+              <div class="flip-card-back">
+                <h4><strong>Economics</strong></h4>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./imgs/soccer-icon.png" alt="Sports" />
+              </div>
+              <div class="flip-card-back">
+                <h4><strong>Sports</strong></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <h1>Let's Have a <strong>discussion!</strong></h1>
+        </div>
+        <p>Please allow 24-48 hours for a response. Thank you!</p>
+        <div>
+          <form id="contact-form" aria-label="Contact-Form">
+            <div class="form-row">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-input"
+                placeholder="Your Name"
+                minlength="3"
+                required
+                aria-label="Your name"
+                pattern="[A-Za-zęóąśłżźćńĘÓĄŚŁŻŹĆŃ]+(?:[-\s][A-Za-zęóąśłżźćńĘÓĄŚŁŻŹĆŃ]+)*"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-input"
+                placeholder="Your Email"
+                required
+                aria-label="Your email"
+              />
+            </div>
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              class="form-input"
+              minlength="10"
+              maxlength="5000"
+              required
+              placeholder="Enter your message here..."
+              style="resize: none"
+              aria-label="Your message"
+            ></textarea>
+            <div
+              class="g-recaptcha"
+              data-sitekey="6LegCN8pAAAAAGLXRDCO4yx-0-iTKeoDwR0gW31t"
+            ></div>
+            <div class="form-button">
+              <button type="submit">Submit Your Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <p>&copy; 2024 Kamil Kostka</p>
+          <p>All rights reserved</p>
+        </div>
+      </footer>
+      <div class="theme-btn">
+        <span class="btn-adjust">🌙</span>
+      </div>
+    </main>
+  </body>
+</html>
