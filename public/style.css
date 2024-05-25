@@ -478,6 +478,7 @@ ul {
   position: relative;
   z-index: 1;
   display: flex;
+  padding: 20px 0;
 }
 
 .job-item-left {
