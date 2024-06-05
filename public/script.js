@@ -111,7 +111,11 @@ function validateForm() {
   clearErrors();
 
   // Validate name
-  if (!/^[A-Za-zęóąśłżźćńĘÓĄŚŁŻŹĆŃ]+(?:[-\s][A-Za-zęóąśłżźćńĘÓĄŚŁŻŹĆŃ]+)*$/.test(name.value)) {
+  if (
+    !/^[A-Za-zęóąśłżźćńĘÓĄŚŁŻŹĆŃ]+(?:[-\s][A-Za-zęóąśłżźćńĘÓĄŚŁŻŹĆŃ]+)*$/.test(
+      name.value
+    )
+  ) {
     showError(name, "Please enter a valid name.");
     valid = false;
   }
@@ -136,14 +140,20 @@ function showError(element, message) {
   error.className = "error";
   error.style.color = "red";
   error.style.fontSize = "15px";
-  error.style.marginTop = "-30px";
+  error.style.marginTop = "-40px";
+  error.style.textAlign = "left";
   error.innerText = message;
   element.parentNode.appendChild(error);
+  element.classList.add("error-border");
 }
 
 function clearErrors() {
   var errors = document.querySelectorAll(".error");
   errors.forEach(function (error) {
     error.remove();
+  });
+  var errorBorders = document.querySelectorAll(".error-border");
+  errorBorders.forEach(function (element) {
+    element.classList.remove("error-border");
   });
 }

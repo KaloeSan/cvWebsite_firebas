@@ -951,3 +951,9 @@ body.dark-mode {
 .theme-btn span {
   font-size: 24px;
 }
+
+/******** FORM ERROR STYLING  ****************/
+
+.error-border {
+  border: 2px solid red; /* Set border to red */
+}
