@@ -71,6 +71,7 @@ window.onload = function () {
       confirmationMessage += `Name: ${name}\n`;
       confirmationMessage += `Email: ${email}\n`;
       confirmationMessage += `Message: ${message}\n`;
+      confirmationMessage += `Please click \"OK\" to send me an email!\n`;
 
       if (confirm(confirmationMessage)) {
         // If confirmed, send the form using EmailJS
